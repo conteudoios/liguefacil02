@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #063941;
+  color: #333;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header,
+footer {
+  background-color: #ee7a25;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav a {
+  color: inherit;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+main,
+form {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+}
+
+form {
+  background-color: #f9f9f9;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 8px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+.banner img {
+  width: 300px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ee7a25;
+  font-weight: bold;
+  text-align: lef;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #063941;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+a {
+  color: #ee7a25;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #063941;
+}
+
+.img-fundadores {
+  width: 35%;
+  display: block;
+  margin: 0 auto;
+}
+
+h1{
+  color: #ee7a25;
+  background-color:#063941;
+  text-align: center;
+}
+
